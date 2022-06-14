@@ -1,0 +1,108 @@
+/* header style */
+
+.top{
+  position:absolute;
+  width:100%;
+  height:150px;
+  /* background:rgb(252, 240, 240); */
+  top:0;
+  /* z-index:99999; */
+}
+
+.logo{
+  /* display:flex;
+  justify-content:center;
+  align-items:center; */
+  margin-top:20px;
+  text-align:center;
+}
+
+/* 메뉴부분 */
+.top .header-menu{
+  /* display:none; */
+  width:100%;
+ 
+  /* background: rgb(90, 70, 70); */
+  margin-top:35px;
+}
+.top .header-menu .menu{
+  width:1200px;
+  height:60px;
+  margin:0 auto;
+  color:#333; /* background: #00548b; */
+  /* display:flex;
+  justify-content:center;
+  align-items:center; */
+}
+.top .header-menu .menu>li{
+  float:left;
+  width:240px;
+  text-align: center;
+  /* background: pink; */
+}
+.top .header-menu .menu>li>a{
+  font-weight:bold;
+  font-size:20px;
+  color:#333;
+}
+.top .header-menu .menu>li>ul>li{
+}
+
+/* 서브메뉴 */
+.menu>li ul{
+	display:none;   /*서브메뉴 감추기->jQuery에서 보이게 함*/
+	background:rgb(250, 250, 250,0.8);
+  margin-top:15px;
+}
+.menu>li ul li{
+	padding:10px 0px;
+	border-bottom:solid 1px #eee;
+}
+.menu>li ul li a{
+	color:#666;
+	font-size:13px;
+}
+.menu>li ul li:hover{background:#fff;font-weight: bold;}
+
+/* 서브페이지 비주얼 */
+.subtop1{
+  width:100%;
+  height:540px;
+  margin:0 auto;
+  margin-top:150px;
+  background:url(../image/subtop01.png) no-repeat center center;
+  background-color:#f0eeee;
+  display: none;
+}
+.subtop2{
+  width:100%;
+  height:540px;
+  margin:0 auto;
+  margin-top:150px;
+  background:url(../image/subtop02.png) no-repeat center center;
+  display: none;
+}
+.subtop3{
+  width:100%;
+  height:540px;
+  margin:0 auto;
+  margin-top:150px;
+  background:url(../image/subtop03.png) no-repeat center center;
+  display: none;
+}
+.subtop4{
+  width:100%;
+  height:540px;
+  margin:0 auto;
+  margin-top:150px;
+  background:url(../image/subtop04.png) no-repeat center center;
+  display: none;
+}
+.subtop5{
+  width:100%;
+  height:540px;
+  margin:0 auto;
+  margin-top:150px;
+  background:url(../image/subtop05.png) no-repeat center center;
+  display: none;
+}
